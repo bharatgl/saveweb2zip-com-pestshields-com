@@ -135,7 +135,7 @@ class urbanshieldpestcontrol_Admin {
      * Customers page
      */
     public function customers_page() {
-        // Get users with pest shield bookings
+        // Get users with Urban Shield Pest Control bookings
         global $wpdb;
         $bookings_table = $wpdb->prefix . 'urbanshieldpestcontrol_bookings';
         

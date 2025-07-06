@@ -38,10 +38,18 @@ class urbanshieldpestcontrolPlugin {
     }
     
     private function load_dependencies() {
-        require_once urbanshieldpestcontrol_PLUGIN_PATH . 'includes/class-pest-services.php';
+        // Only load files that actually exist to prevent fatal errors during
+        // activation. The original project referenced several classes that were
+        // missing from the repository. Those references caused the plugin to
+        // break when installed on WordPress. Since the booking system and admin
+        // class are present, load those files and skip the others.
+
         require_once urbanshieldpestcontrol_PLUGIN_PATH . 'includes/class-booking-system.php';
-        require_once urbanshieldpestcontrol_PLUGIN_PATH . 'includes/class-customer-management.php';
         require_once urbanshieldpestcontrol_PLUGIN_PATH . 'admin/class-admin.php';
+
+        // Public functionality is very small in this version of the plugin, so
+        // a lightweight class is bundled below to enqueue any assets and to
+        // bootstrap the booking system on the front end.
         require_once urbanshieldpestcontrol_PLUGIN_PATH . 'public/class-public.php';
     }
     
