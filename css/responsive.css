@@ -1,0 +1,256 @@
+.mx-point {
+    font-style: italic;
+    color: #0477aa;
+    font-weight: 600;
+}
+@media(max-width: 991px){
+    .banner-text .banner-points ul{
+        flex-wrap: wrap;
+    }
+    .banner-area .banner-img{
+        display: none;
+    }
+    .yellow-banner.comm-banner{
+        max-height: unset;
+    }
+    .yellow-banner.comm-banner .yellow-banner-text-container{
+        margin-top: 30px;
+    }
+    .main-nav .nav-bar .nav-list{
+        display: none;
+    }
+    .commercial-form-container{
+        position: relative;
+        z-index: 3;
+    }
+    .comm-banner-bottom{
+        padding-top: 250px;
+        padding-bottom: 55px;
+        margin-top: -250px;
+        position: relative;
+        z-index: 2;
+    }
+    .main-nav .nav-bar .brand-logo{
+        max-width: 150px;
+    }
+    .menu{
+        display: block;
+    }
+    .home-care-wrapper .hm-logo{
+        display: none;
+    }
+    .banner-area .banner-img img{
+        position: unset;
+       transform: scale(1);
+
+    }
+    .yellow-banner-heading{
+        font-size: 26px;
+    }
+    .value-grid .v-text p{
+        font-size: 24px;
+    }
+    .value-grid .v-text {
+        min-height: 0px;
+    }
+}
+@media(max-width: 650px){
+    .fly-pat{
+        display: none !important;
+    }
+    .proceed-btn{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 55;
+        margin-bottom: 0px;
+        border-radius: 0px !important;
+    }
+    .banner-text .banner-head1{
+        font-size: 2em;
+    }
+    .cer-sec{
+        padding: 30px 0px;
+    }
+    .cn-det, .top-bar .top-btns span:not(.mob-pipe){
+        display: none !important;
+    }
+    /* .main-nav .top-bar .top-btns {
+        background-color: red;
+    } */
+    .sectors-served-sec .sectors-heading{
+        padding-left: 15px;
+    }
+    .cta-sec-comm h5{
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .cs-grid{
+        gap: 12px;
+    }
+    .case-studies-sec{
+        padding-bottom: 35px;
+    }
+    .yellow-banner-img{
+        display: none;
+    }
+    .pr-grid-wrap{
+        padding: 30px 0px;
+    }
+    .yellow-banner-text-container{
+        padding: 30px 15px !important;
+    }
+    .yellow-banner{
+        min-height: 200px;
+    }
+    .home-care-wrapper{
+        padding: 15px 15px;
+    }
+    .main-nav .top-bar ul{
+        display: none;
+    }
+    .main-nav .top-bar{
+        justify-content: flex-end;
+        padding: 5px 15px;
+    }
+    .cart-items-list .pr-card-body{
+        padding: 15px 10px;
+    }
+    .c-card{
+        padding: 15px 15px;
+    }
+    .cart-page .c-card{
+        margin-bottom: 20px;
+    }
+    .banner-text .banner-head{
+        font-size: 3.5em;
+    }
+    .banner-area .banner-img img{
+        transform: scale(1.1);
+    }
+    .serv-pack-container .srv-pack-wrapper{
+        padding: 15px 15px;
+    }
+    .sec-head{
+        font-size: 1.8em;
+    }
+    .banner-text{
+        margin-top: 0px;
+    }
+    .cart-page .btns-flex{
+        position: fixed;
+        box-shadow: -4px 0px 8px 0px rgba(0, 0, 0, 0.3);
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        gap: 10px;
+        padding: 10px;
+        background: white;
+        left: 0;
+    }.cart-page .btns-flex a{
+        font-weight: 700;
+    }
+    .test-sec .sec-head-wrap{
+        padding-left: 0px;
+        margin-bottom: 35px;
+    }
+    
+    .test-sec {
+        padding: 35px 15px;
+        padding-right: 0;
+    }
+    .srv-counter{
+        left: 50%;
+        width: 100% !important;
+        border-radius: 0px  !important;
+        bottom: 0 !important;
+        transform: translateX(-50%);
+        right: unset;
+    }
+}
+@media(max-width: 400px){
+    .pr-card-grid{
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media(min-width: 1400px){
+    .banner-area .banner-img img{
+        transform: scale(1);
+    }
+}
+@media(max-width: 530px){
+    .wizard > .steps > ul > li a span.number{
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+        font-size: 14px;
+    }
+    .slider.slider-2{
+        margin-top: 0;
+    }
+}
+@media(max-width: 790px){
+    .yellow-banner-text-container{
+        padding-left: 30px;
+    }
+}
+@media(max-width: 767px){
+    .inner-banner-head{
+        font-size: 24px;
+    }
+    header.about-banner .banner-text{
+        margin: 55px 0px;
+    }
+    .tabs-inner-wrapper{
+        padding: 45px 0px;
+        padding-top: 85px;
+    }
+    .cta-wrap{
+        transform: translateY(0px);
+        padding: 15px;
+        margin-bottom: 35px;
+        margin-top: 25px;
+    }
+    .cta-wrap .sec-head{
+        font-size: 24px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .about-tabs ul{
+        padding: 0px 0px;
+    }
+    .about-tabs ul li{
+        padding: 0px 15px;
+    }
+    .about-tabs ul li button{
+        line-height: 13px;
+    }
+    .value-grid{
+        grid-template-columns: 1fr;
+        margin-top: 125px;
+    }
+    .value-grid .v-text{
+        position: absolute;
+        top: 0;
+        grid-row-start: 1;
+        transform: translateY(-50%);
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 640px){
+    .value-grid .v-img{
+        min-height: 300px;
+    }
+    .main-nav .top-bar{
+        padding: 5px 0px !important;
+    }
+    .main-nav .top-bar .top-btns a{
+        font-size: 13px !important;
+        padding: 3px 10px !important;
+    }
+}
